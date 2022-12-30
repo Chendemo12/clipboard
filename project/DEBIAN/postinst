@@ -1,0 +1,6 @@
+#!/bin/bash
+# 安装完成后所需的配置工作, 一个软件包安装或升级完成后，启动或重起相应的服务
+
+echo "Running postinst ..."
+systemctl enable /opt/cowave/lib/systemd/clip-sync.service
+exit 0

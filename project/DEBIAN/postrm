@@ -1,0 +1,5 @@
+#!/bin/bash
+# 修改相关文件或连接, 和/或卸载软件包所创建的文件
+
+echo "Running postrm ..."
+exit 0

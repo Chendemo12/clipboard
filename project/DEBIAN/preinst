@@ -1,0 +1,5 @@
+#!/bin/bash
+# 解压前执行的脚本, 为正在被升级的包停止相关服务,直到升级或安装完成
+
+echo "Running preinst ..."
+exit 0

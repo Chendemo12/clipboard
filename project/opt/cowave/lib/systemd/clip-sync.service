@@ -1,0 +1,11 @@
+[Unit]
+Description=Cowave clip-sync
+#Restart=Always
+#After=xxx.service
+#Requires=xxx.service
+
+[Service]
+ExecStart=/opt/cowave/bin/clip-sync
+
+[Install]
+WantedBy=multi-user.target

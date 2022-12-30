@@ -1,0 +1,8 @@
+Package: clip-sync
+Version: 0.1.1
+Architecture: amd64
+Section: embedded
+Priority: optional
+Maintainer: cowave.com
+Contact: cowave.com
+Description: Cowave clip-sync.
