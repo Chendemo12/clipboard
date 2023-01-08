@@ -2,10 +2,7 @@ package service_context
 
 import (
 	"context"
-	"github.com/go-redis/redis/v8"
-	"gitlab.cowave.com/gogo/clipboard/src/config"
-	"gitlab.cowave.com/gogo/functools/kafkac"
-	"gorm.io/gorm"
+	"github.com/Chendemo12/clipboard/src/config"
 	"sync"
 )
 
@@ -15,12 +12,8 @@ var (
 )
 
 type ServiceContext struct {
-	Conf         *config.Configuration
-	DB           *gorm.DB
-	Kafka        *kafkac.KafkaClient
-	RedisBFF     *redis.Client
-	RedisDefault *redis.Client
-	Context      *context.Context
+	Conf    *config.Configuration
+	Context *context.Context
 }
 
 func (c *ServiceContext) Config() any { return c.Conf }

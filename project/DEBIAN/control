@@ -1,5 +1,5 @@
 Package: clip-sync
-Version: 0.1.1
+Version: 0.1.2
 Architecture: amd64
 Section: embedded
 Priority: optional

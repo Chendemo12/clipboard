@@ -1,7 +1,7 @@
 package config
 
 import (
-	"gitlab.cowave.com/gogo/functools/environ"
+	"github.com/Chendemo12/functools/environ"
 	"sync"
 )
 

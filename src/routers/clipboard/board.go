@@ -1,9 +1,9 @@
 package clipboard
 
 import (
-	"gitlab.cowave.com/gogo/clipboard/src/config"
-	"gitlab.cowave.com/gogo/clipboard/src/utils/clipboard"
-	"gitlab.cowave.com/gogo/flaskgo"
+	"github.com/Chendemo12/clipboard/src/config"
+	"github.com/Chendemo12/clipboard/src/utils/clipboard"
+	"github.com/Chendemo12/flaskgo"
 )
 
 func ReadClipboard(c *flaskgo.Context) any {

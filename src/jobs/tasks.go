@@ -1,10 +1,10 @@
 package jobs
 
 import (
-	"gitlab.cowave.com/gogo/clipboard/src/config"
-	"gitlab.cowave.com/gogo/clipboard/src/utils/client"
-	"gitlab.cowave.com/gogo/clipboard/src/utils/clipboard"
-	"gitlab.cowave.com/gogo/flaskgo"
+	"github.com/Chendemo12/clipboard/src/config"
+	"github.com/Chendemo12/clipboard/src/utils/client"
+	"github.com/Chendemo12/clipboard/src/utils/clipboard"
+	"github.com/Chendemo12/flaskgo"
 	"time"
 )
 

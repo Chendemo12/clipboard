@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"gitlab.cowave.com/gogo/clipboard/src"
+	"github.com/Chendemo12/clipboard/src"
 	_ "go.uber.org/automaxprocs"
 	"math/rand"
 	"time"

@@ -1,8 +1,8 @@
 package routers
 
 import (
-	"gitlab.cowave.com/gogo/clipboard/src/routers/clipboard"
-	"gitlab.cowave.com/gogo/flaskgo"
+	"github.com/Chendemo12/clipboard/src/routers/clipboard"
+	"github.com/Chendemo12/flaskgo"
 )
 
 var ObjectRouter = flaskgo.APIRouter("/api", []string{"User"})

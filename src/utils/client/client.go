@@ -1,8 +1,8 @@
 package client
 
 import (
-	"gitlab.cowave.com/gogo/functools/httpc"
-	"gitlab.cowave.com/gogo/functools/zaplog"
+	"github.com/Chendemo12/functools/httpc"
+	"github.com/Chendemo12/functools/zaplog"
 )
 
 type Clipboard struct {

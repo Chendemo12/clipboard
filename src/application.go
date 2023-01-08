@@ -2,16 +2,16 @@ package src
 
 import (
 	"fmt"
-	"gitlab.cowave.com/gogo/clipboard/src/config"
-	"gitlab.cowave.com/gogo/clipboard/src/jobs"
-	"gitlab.cowave.com/gogo/clipboard/src/routers"
-	"gitlab.cowave.com/gogo/clipboard/src/service_context"
-	"gitlab.cowave.com/gogo/flaskgo"
+	"github.com/Chendemo12/clipboard/src/config"
+	"github.com/Chendemo12/clipboard/src/jobs"
+	"github.com/Chendemo12/clipboard/src/routers"
+	"github.com/Chendemo12/clipboard/src/service_context"
+	"github.com/Chendemo12/flaskgo"
 )
 
 const (
 	Title   = "clip-sync"
-	Version = "0.1.1"
+	Version = "0.1.2"
 )
 
 func Application(envfile string, debug bool) {
