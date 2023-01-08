@@ -5,9 +5,10 @@
 /tmp/
 /logs/
 /exe/
-/etc/
 project.env
 main
+!/project/etc
+/etc/
 pull.sh
 
 .idea/

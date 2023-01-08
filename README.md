@@ -18,7 +18,8 @@
 3. 支持的运行参数:
 
 ```bash
-❯ go run main.go --help
+go run main.go --help
+
 2023/01/08 12:40:32 maxprocs: Leaving GOMAXPROCS=8: CPU quota undefined
 Usage of /tmp/go-build343061439/b001/exe/main:
   -dev
